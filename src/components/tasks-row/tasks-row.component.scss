@@ -1,0 +1,30 @@
+.tasks-container {
+  width: 20%;
+  align-items: center;
+}
+
+
+
+.task-header {
+  width: 95%;
+  margin: 5px auto;
+  font-size: 16px;
+  font-weight: bold;
+  color: #383434;
+  margin-bottom: 5%;
+}
+
+.more-actions {
+  float: right;
+  margin-top: -3px;
+  color: #00000075;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+.header-name {
+  float: left;
+}
+.clear-float {
+  clear: both;
+}

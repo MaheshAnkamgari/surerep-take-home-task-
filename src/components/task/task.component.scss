@@ -1,0 +1,102 @@
+.draggable {
+  width: 95%;
+  height: 150px;
+  margin: 5px auto;
+  line-height: 1em;
+}
+
+.task-info.move-taks {
+  border-style: dotted !important;
+  border-color: gray;
+  border-radius: 5px;
+}
+
+.task-info {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  font-size: 12px;
+  border: 1px solid;
+  padding: 10px;
+  border: 1px solid #00000021;
+  background: #eeeeee14;
+  box-shadow: 5px 5px 8px 5px #e0e0e087;
+  border-radius: 5px;
+}
+
+.combine-lines {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.text-right-align {
+  text-align: right;
+}
+.split-two {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+}
+
+.attachment {
+  font-size: 16px;
+  color: #4d4a4a5e;
+  width: 5px;
+}
+
+.image-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.plan-add-icon {
+  border-style: dotted;
+  border-color: #80808075;
+  border-radius: 50%;
+  text-align: center;
+  width: 15px;
+  font-weight: bold;
+  color: #808080b3;
+}
+
+.task-scope {
+  color: #03d1ff;
+  font-weight: 500;
+}
+
+.task-name {
+  color: #000000b8;
+  font-weight: 700;
+}
+
+.high {
+  background: orange;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  width: 35px;
+}
+
+.normal {
+  background: green;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  width: 60px;
+}
+
+.low {
+  background: #30c4ca;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  width: 35px;
+}
+
+.urgent {
+  background: red;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  width: 60px;
+}
